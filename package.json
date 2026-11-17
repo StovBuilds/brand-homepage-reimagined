@@ -1,0 +1,28 @@
+{
+  "name": "brand-homepage-reimagined",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A scroll-driven 3D concept homepage: one original trainer, taken apart, run and recoloured as you scroll. Vite + React + Three.js.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fontsource/bebas-neue": "^5.3.0",
+    "@fontsource/inter": "^5.2.8",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "three": "^0.185.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.23",
+    "@types/react-dom": "^18.3.7",
+    "@types/three": "^0.185.4",
+    "@vitejs/plugin-react-swc": "^3.11.0",
+    "typescript": "^5.8.3",
+    "vite": "^5.4.19"
+  }
+}
